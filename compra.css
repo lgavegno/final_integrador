@@ -1,0 +1,53 @@
+.bg-custom {
+    background: #353a40;
+  }
+  
+  nav div .navbar-nav a:hover {
+    color: gold !important
+  }
+  
+  .color-text {
+    color: rgb(70, 199, 41) !important
+  }
+
+  .bg-footer {
+    background: #1e4f6d;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  /* Modo oscuro del boton */
+  #dark-mode-toggle {
+  background-color: #353a40;
+  color: #a9a6a6;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#dark-mode-toggle:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+/* Modo oscuro del Body */
+body.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark-mode a {
+  color: #ffffff;
+}
+
+@media (max-width: 991px) {
+  .navbar-toggler{
+    background: aliceblue;
+    flex-wrap: wrap;
+    padding: auto;
+  }
+  .bg-footer .row {
+    background: #1e4f6d;
+    row-gap: 1em;
+  }
+
+}

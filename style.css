@@ -1,0 +1,82 @@
+/* Bg personalizado */
+.bg-custom {
+  background: #353a40;
+}
+
+nav div .navbar-nav a:hover {
+  color: gold !important
+}
+
+.color-text {
+  color: rgb(70, 199, 41) !important
+}
+
+.info-conf {
+  margin-bottom: 15%;
+  float: right;
+  justify-content:right;
+  text-align: right;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+  font-size: larger;
+} 
+
+.card-img-top {
+  display: flex;
+  width: auto;
+  object-fit: cover;
+  align-items: center;
+}
+
+.card-group {
+  gap: 30px;
+  font-size: small;
+  width: auto;
+}
+
+.bg-footer {
+  background: #1e4f6d;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+@media (max-width: 991px) {
+
+  .navbar-brand {
+    font-size: small;
+    flex-wrap: wrap;
+    padding: auto;
+  }
+  
+  .navbar-toggler{
+    background: aliceblue;
+    flex-wrap: wrap;
+    padding: auto;
+  }
+
+  .carousel-inner .img-fluid {
+    height: 60vh;
+  }
+
+  .info-conf {
+    display: table-row;
+    text-align: start;
+    font-size: small;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    width: 100%;
+    margin: 0px;
+  }
+
+  .button-container {
+    display:flex;
+    font-size: small;
+    flex-direction: column;
+    row-gap: 1em; 
+    padding: 0px;      
+  }
+
+  .bg-footer .row {
+    background: #1e4f6d;
+    row-gap: 1em;
+  }
+}
+
