@@ -27,13 +27,12 @@ const setTicket = (e) => {
   function showTotal(discountPercent){
     const tickets = document.getElementById('tickets').valueAsNumber;
     if( tickets < 0 || isNaN(tickets) || tickets ===  0||  tickets === null ){ 
-      document.getElementById('tickets').value = 0;  //ok
-      alert('La cantidad no debe ser cero ni negativa');
+      document.getElementById('tickets').value = 0;  
       return;
     }
     
     const discountAmount = (tickets * price) * (discountPercent / 100);
-    total = (tickets * price) - discountAmount;  //ok
+    total = (tickets * price) - discountAmount;  
     const totalTag = document.getElementById('totalTag');
      totalTag.innerHTML = `Total a pagar $: ${total}`;
 
@@ -53,7 +52,7 @@ const submit = (e) => {
     firstname: firstname !== '',
     lastname: lastname !== '',
     email: email !== '',
-    tickets: tickets !== null && tickets !== 0 && tickets > 0, //retorna false
+    tickets: tickets !== null && tickets !== 0 && tickets > 0, 
     category: category !== 'none'
   };
  
