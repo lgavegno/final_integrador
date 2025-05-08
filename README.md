@@ -52,8 +52,5 @@ final\_integrador/
 
 Este proyecto fue realizado con fines educativos como parte del programa **Codo a Codo**.
 
----
 
-```
 
-¿Te gustaría que también te genere una versión en inglés?
